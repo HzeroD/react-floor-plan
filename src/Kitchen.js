@@ -3,8 +3,11 @@ import Oven from './Oven.js'
 
 function Kitchen(props){
     return(
+        <div>
+        Kitchen
         <Sink />
         <Oven />
+        </div>
     )
 }
 

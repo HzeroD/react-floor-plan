@@ -3,7 +3,9 @@
 function Bedroom(props){
     return(
         <div>
-            {b}
+            {`Bedroom ${props.bedNum}`}
         </div>
     )
 }
+
+export default Bedroom
